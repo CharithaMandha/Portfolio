@@ -5,7 +5,7 @@ VANTA.BIRDS({
   mouseControls: true,
   touchControls: true,
   gyroControls: false,
-  minHeight: 550.00,
+  minHeight: 600.00,
   minWidth: 800.00,
   scale: 2.00,
   scaleMobile: 1.00,

@@ -40,6 +40,7 @@ body {
   padding-bottom: 600px;
 
 }
+
 #navbar {
   overflow: hidden;
   background-color: #070739;
@@ -68,6 +69,53 @@ body {
 }
 
 /* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
-.sticky + .content {
+.sticky+.content {
   padding-top: 60px;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #070739;
+}
+
+.topnav a {
+  float: right;
+  color: #ffffff;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #070739;
+  color: #ed719e;
+}
+
+/* .headshot{
+ max-width: 30%;
+  max-height: 40%;
+  object-position: left;
+}
+*/
+
+
+.blurb {
+  position: absolute;
+  z-index: 1;
+  padding-left: 520px;
+  padding-top: 30px;
+  padding-bottom: 60px;
+  color: white;
+
+}
+.secondPageTitle{
+  text-align: center;
+   color: white;
+  padding-top: 600px;
 }
